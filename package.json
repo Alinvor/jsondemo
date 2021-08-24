@@ -19,6 +19,7 @@
     "homepage": "https://github.com/Alinvor/jsondemo#readme",
     "dependencies": {},
     "devDependencies": {
-        "json-server": "^0.16.3"
+        "json-server": "^0.16.3",
+        "mockjs": "^1.1.0"
     }
 }
