@@ -1,0 +1,24 @@
+{
+    "name": "jsondemo",
+    "version": "1.0.0",
+    "description": "the json demo project",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Alinvor/jsondemo.git"
+    },
+    "keywords": [],
+    "author": "dvsnier",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Alinvor/jsondemo/issues"
+    },
+    "homepage": "https://github.com/Alinvor/jsondemo#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "json-server": "^0.16.3"
+    }
+}
