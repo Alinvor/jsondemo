@@ -4,11 +4,11 @@
     "description": "the json demo project",
     "main": "index.js",
     "scripts": {
-        "api": "json-server -c ./config/json-server.json -r ./route/route.json ./api/api.js",
-        "app": "json-server -c ./config/json-server.json ./mock/app.js",
-        "db": "json-server -c ./config/json-server.json ./default/db.json",
-        "index": "json-server -c ./config/json-server.json ./index.js",
-        "mock": "json-server -c ./config/json-server.json ./mock/mock.js",
+        "api": "json-server -c ./config/json-server.json -m ./middlewares/header.js -r ./route/route.json ./api/api.js",
+        "app": "json-server -c ./config/json-server.json -m ./middlewares/header.js ./mock/app.js",
+        "db": "json-server -c ./config/json-server.json -m ./middlewares/header.js ./default/db.json",
+        "index": "json-server -c ./config/json-server.json -m ./middlewares/header.js ./index.js",
+        "mock": "json-server -c ./config/json-server.json -m ./middlewares/header.js ./mock/mock.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
