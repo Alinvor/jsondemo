@@ -1,0 +1,15 @@
+{
+    "delay": 250,
+    "help": true,
+    "host": "0.0.0.0",
+    "no-cors": false,
+    "no-gzip": false,
+    "port": 12345,
+    "quiet": false,
+    "watch": false,
+    "read-only": false,
+    "routes": "./route/route.json",
+    "static": "./public",
+    "snapshots": "./snapshots",
+    "version": true
+}
