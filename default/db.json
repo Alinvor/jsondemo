@@ -1,0 +1,55 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "json-server",
+            "author": "typicode 1"
+        },
+        {
+            "id": 2,
+            "title": "json-server",
+            "author": "typicode 2"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment 1",
+            "postId": 1
+        },
+        {
+            "id": 2,
+            "body": "some comment 2",
+            "postId": 2
+        }
+    ],
+    "profile": {
+        "name": "typicode",
+        "data": {
+            "article_name": "xxx",
+            "article_author": "99",
+            "article_time": "2019-12-23 15:08:22",
+            "article_click": "2862",
+            "article_reply": "159",
+            "article_capture_count": 1,
+            "article_capture_last_time": "2021-08-23 10:32:36",
+            "article_link": "http://xyz.shtml",
+            "article_online": 1,
+            "article_version_name": "v0.0.1",
+            "article_version_code": 1,
+            "system_time": "2016-06-23 10:32:36",
+            "system_timestamp": 165956.268235,
+            "meta_data": {
+                "_host": "123008728",
+                "js_clickcount": "2571862",
+                "js_grade": "0",
+                "js_postid": "1915768",
+                "js_posttime": "1577084902000",
+                "js_powerreply": "0",
+                "js_replycount": "11559",
+                "js_replytime": "2021-08-23 09:24:43.0",
+                "support_ds_version": "0.0.1"
+            }
+        }
+    }
+}

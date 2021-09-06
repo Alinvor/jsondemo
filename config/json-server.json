@@ -1,0 +1,10 @@
+{
+    "delay": 250,
+    "host": "localhost",
+    "no-cors": false,
+    "no-gzip": false,
+    "port": 12345,
+    "quiet": false,
+    "watch": true,
+    "read-only": false
+}
