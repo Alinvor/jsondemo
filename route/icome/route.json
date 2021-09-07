@@ -1,0 +1,5 @@
+{
+    "/api/*": "/$1",
+    "/allotsalary/approvalInfo": "/approvalInfo",
+    "/allotsalary/approvalInfo/:id": "/approvalInfo"
+}

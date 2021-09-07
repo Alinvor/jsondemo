@@ -111,3 +111,6 @@ temp/
 template/
 
 **/.DS_Store
+
+# config
+config/icome/
