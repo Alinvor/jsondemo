@@ -9,6 +9,7 @@
         "db": "json-server -c ./config/json-server.json -m ./middlewares/header.js ./default/db.json",
         "index": "json-server -c ./config/json-server.json -m ./middlewares/header.js ./index.js",
         "mock": "json-server -c ./config/json-server.json -m ./middlewares/header.js ./mock/mock.js",
+        "sever": "node app.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -27,6 +28,7 @@
     "homepage": "https://github.com/Alinvor/jsondemo#readme",
     "dependencies": {},
     "devDependencies": {
+        "express": "^4.17.1",
         "json-server": "^0.16.3",
         "mockjs": "^1.1.0"
     }
